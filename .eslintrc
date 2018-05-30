@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "rallycoding"
+    ],
+    "rules": {
+        "arrow-body-style": 0
+    },
+    "parser": "babel-eslint",
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [
+                    ".js",
+                    ".android.js",
+                    ".ios.js"
+                ]
+            }
+        }
+    }
+}
